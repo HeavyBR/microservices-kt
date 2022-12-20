@@ -14,8 +14,13 @@ repositories {
 
 dependencies {
     constraints {
-        // Define dependency versions as constraints
-        implementation("org.apache.commons:commons-text:1.9")
+        implementation("org.slf4j:slf4j-simple:2.0.6")
+        implementation("org.springframework.boot:spring-boot-starter-validation:2.3.1.RELEASE")
+        implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.21")
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.22")
+        implementation("org.springframework:spring-tx:6.0.3")
+        implementation("javax.validation:validation-api:2.0.1.Final")
+
     }
 
     // Use JUnit Jupiter for testing.

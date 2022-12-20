@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "ifood"
-include("order-service")
+include("order-service", "commons")
